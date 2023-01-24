@@ -97,14 +97,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    guid: 6824469b-ae62-4545-9609-0ea0b80d992a
+    id: eb46e014-1e8d-492d-ad1c-264dd72f1cc4
+    title: Test Territory
+    position: {x: 4.59, y: 0, z: 2.96}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
     bounds:
       m_Center: {x: 4.59, y: 0, z: 2.96}
       m_Extent: {x: 0, y: 0, z: 0}
     isCoast: 0
     buildingCapacity: 2
     naturalDistricts: []
-  boundaryCollider: {fileID: 5816360300615185257}
+    isDiscovered: 0
   naturalDistricts: []
 --- !u!65 &5816360300615185257
 BoxCollider:
