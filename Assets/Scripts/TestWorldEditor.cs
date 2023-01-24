@@ -25,7 +25,7 @@ public class TestWorldEditor : MonoBehaviour
     [ContextMenu("SelectWorld")]
     private void SelectWorld()
     {
-        worldPipeline.SetWorld(worldPrefabs.First().id);
+        worldPipeline.SetWorld(worldPrefabs.First());
         worldEditor.World = worldPipeline.World;
     }
 
@@ -33,11 +33,13 @@ public class TestWorldEditor : MonoBehaviour
     private void AddTerritory()
     {
         var territoryPrefab = worldPipeline.TerritoryPrefabs.First();
-        var newTerritory = worldPipeline.InstantiateTerritory(territoryPrefab.id, Vector3.up, Quaternion.identity);
+        var newTerritory = worldPipeline.InstantiateTerritory(territoryPrefab);
+        newTerritory.SetPosition(Vector3.up);
         worldEditor.World.AddTerritory(newTerritory);
         var naturalDistrictPrefab = worldPipeline.NaturalDistrictPrefabs.First();
         var newNaturalDistrict =
-            worldPipeline.InstantiateNaturalDistrict(naturalDistrictPrefab.id, Vector3.up * 1.5f, Quaternion.identity);
+            worldPipeline.InstantiateNaturalDistrict(naturalDistrictPrefab);
+        newNaturalDistrict.SetPosition(Vector3.up * 1.5f);
         newTerritory.AddNaturalDistrict(newNaturalDistrict);
     }
 }

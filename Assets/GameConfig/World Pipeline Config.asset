@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: World Pipeline Config
   m_EditorClassIdentifier: 
   worldPrefabs:
-  - {fileID: 6912421159068087923, guid: 01910ec00f2cafb4798eeb61024c70d6, type: 3}
+  - {fileID: 444109834306069130, guid: 01910ec00f2cafb4798eeb61024c70d6, type: 3}
   territoryPrefabs:
-  - {fileID: 5816360300615185256, guid: 2aa3537cbdd3e144d940b5d198821ff5, type: 3}
+  - {fileID: 2088438961610474633, guid: 2aa3537cbdd3e144d940b5d198821ff5, type: 3}
   naturalDistrictPrefabs:
-  - {fileID: 414648810009058126, guid: e2cb62657329d0e4d9cbeb26b4b622df, type: 3}
+  - {fileID: 3652655927776922537, guid: e2cb62657329d0e4d9cbeb26b4b622df, type: 3}

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5816360300615185259}
   - component: {fileID: 5816360300615185263}
   - component: {fileID: 5816360300615185262}
-  - component: {fileID: 5816360300615185256}
   - component: {fileID: 5816360300615185257}
+  - component: {fileID: 2088438961610474633}
   m_Layer: 0
   m_Name: Territory
   m_TagString: Untagged
@@ -84,31 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5816360300615185256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5816360300615185258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae493bd228c8467ba6059b0ec9a0edb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: eb46e014-1e8d-492d-ad1c-264dd72f1cc4
-    title: Test Territory
-    position: {x: 4.59, y: 0, z: 2.96}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    bounds:
-      m_Center: {x: 4.59, y: 0, z: 2.96}
-      m_Extent: {x: 0, y: 0, z: 0}
-    isCoast: 0
-    buildingCapacity: 2
-    naturalDistricts: []
-    isDiscovered: 0
-  naturalDistricts: []
 --- !u!65 &5816360300615185257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -122,3 +97,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2088438961610474633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5816360300615185258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae493bd228c8467ba6059b0ec9a0edb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    isInstance: 0
+    id: 
+    prefabId: 780a6a49-412e-4c4e-9e07-f8f57db8fa8f
+    title: Test Territory
+    position: {x: 4.59, y: 0, z: 2.96}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    bounds:
+      m_Center: {x: 4.59, y: 0, z: 2.96}
+      m_Extent: {x: 0, y: 0, z: 0}
+    isCoast: 0
+    buildingCapacity: 2
+    naturalDistricts: []
+    isDiscovered: 0
+  naturalDistricts: []

@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 414648810009058124}
-  - component: {fileID: 414648810009058126}
   - component: {fileID: 414648810009058127}
   - component: {fileID: 1554894450716328931}
   - component: {fileID: 6479364849835121339}
+  - component: {fileID: 3652655927776922537}
   m_Layer: 0
   m_Name: IronMine
   m_TagString: Untagged
@@ -34,27 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &414648810009058126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414648810009058125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd4eaf0014974ef5b278e9cfc9842e86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: 55caab0f-6dee-4081-98f9-624fe01006d9
-    title: Test Iron Mine
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    bounds:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-    naturalResource: 4
 --- !u!65 &414648810009058127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -118,3 +97,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3652655927776922537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414648810009058125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4eaf0014974ef5b278e9cfc9842e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    isInstance: 0
+    id: 
+    prefabId: 336606e0-1c21-4914-a599-ed1e02e749fc
+    title: Test Iron Mine
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    naturalResource: 4
