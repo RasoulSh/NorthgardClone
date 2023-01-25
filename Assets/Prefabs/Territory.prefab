@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5816360300615185258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.59, y: 0, z: 2.96}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -114,10 +114,10 @@ MonoBehaviour:
     id: 
     prefabId: 780a6a49-412e-4c4e-9e07-f8f57db8fa8f
     title: Test Territory
-    position: {x: 4.59, y: 0, z: 2.96}
+    position: {x: 0, y: 0, z: 0}
     rotation: {x: -0, y: -0, z: -0, w: 1}
     bounds:
-      m_Center: {x: 4.59, y: 0, z: 2.96}
+      m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
     isCoast: 0
     buildingCapacity: 2

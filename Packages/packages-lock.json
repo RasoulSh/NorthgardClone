@@ -18,6 +18,13 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.rsh.mediator": {
+      "version": "https://github.com/RasoulSh/Mediator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "95fb9a969776c0e30dff225d6339dd4e24d1575b"
+    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,

@@ -113,11 +113,10 @@ MonoBehaviour:
     isInstance: 0
     id: 
     prefabId: 4a2c5805-689a-4c0c-989c-c8f86e287a42
-    title: Test World
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    bounds:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+    boundsCenter: {x: 0, y: 0, z: 0}
+    boundsSize: {x: 100, y: 1, z: 100}
+    title: Test World
     territories: []
   territories: []
