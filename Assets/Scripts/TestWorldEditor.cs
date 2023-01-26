@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Northgard.GameWorld.Abstraction;
+using Northgard.GameWorld.Data;
 using Northgard.GameWorld.Entities;
 using UnityEngine;
 using Zenject;
@@ -52,13 +53,39 @@ public class TestWorldEditor : MonoBehaviour
                 var newTerritory = worldPipeline.InstantiateTerritory(territoryPrefab);
                 newTerritory.SetPosition(pos);
                 worldEditor.World.AddTerritory(newTerritory);   
+                var naturalDistrictPrefab = worldPipeline.NaturalDistrictPrefabs.First();
+                var newNaturalDistrict =
+                    worldPipeline.InstantiateNaturalDistrict(naturalDistrictPrefab);
+                newNaturalDistrict.SetPosition(pos + Vector3.up * newNaturalDistrict.Data.Bounds.extents.y);
+                newTerritory.AddNaturalDistrict(newNaturalDistrict);
             }
         }
 
-        // var naturalDistrictPrefab = worldPipeline.NaturalDistrictPrefabs.First();
-        // var newNaturalDistrict =
-        //     worldPipeline.InstantiateNaturalDistrict(naturalDistrictPrefab);
-        // newNaturalDistrict.SetPosition(Vector3.up * 1.5f);
-        // newTerritory.AddNaturalDistrict(newNaturalDistrict);
+        var worldDataset = new WorldDataset()
+        {
+            world = worldPipeline.World.Data,
+            territories = worldPipeline.Territories.Select(t => t.Data).ToList(),
+            naturalDistricts = worldPipeline.NaturalDistricts.Select(nd => nd.Data).ToList()
+        };
+        var worldJson = JsonUtility.ToJson(worldDataset);
+        PlayerPrefs.SetString("TestWorldData", worldJson);
+    }
+
+    [ContextMenu("LoadFromData")]
+    private void LoadFromData()
+    {
+        var worldJson = PlayerPrefs.GetString("TestWorldData");
+        var worldData = JsonUtility.FromJson<WorldDataset>(worldJson);
+        worldPipeline.SetWorld(worldData.world);
+        worldEditor.World = worldPipeline.World;
+        foreach (var territory in worldData.territories)
+        {
+            worldPipeline.InstantiateTerritory(territory);
+        }
+        foreach (var naturalDistrict in worldData.naturalDistricts)
+        {
+            worldPipeline.InstantiateNaturalDistrict(naturalDistrict);
+        }
+        worldPipeline.Initialize();
     }
 }
