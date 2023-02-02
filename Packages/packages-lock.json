@@ -44,6 +44,13 @@
       "dependencies": {},
       "hash": "bab56f24a5aae13f6d7832c848f3c3ee27583469"
     },
+    "com.rsh.uitoolkit": {
+      "version": "https://github.com/RasoulSh/UIToolkit.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d31cdd37b504ffe89482c154b7a1237a3f5f79c1"
+    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,
