@@ -118,4 +118,4 @@ MonoBehaviour:
     boundsCenter: {x: 0, y: 0, z: 0}
     boundsSize: {x: 100, y: 1, z: 100}
     title: Test World
-    territories: []
+    size: {x: 10, y: 10}
