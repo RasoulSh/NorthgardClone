@@ -6,6 +6,18 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.northgard.enterprise": {
+      "version": "file:northgard.enterprise",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.northgard.gameresources": {
+      "version": "file:northgard.gameresources",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.northgard.gameworld": {
       "version": "file:northgard.gameworld",
       "depth": 0,
@@ -20,6 +32,18 @@
     },
     "com.northgard.interactor": {
       "version": "file:northgard.interactor",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.northgard.level": {
+      "version": "file:northgard.level",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.northgard.persistence": {
+      "version": "file:northgard.persistence",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

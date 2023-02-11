@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Packages/northgard.core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/northgard.gameresources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Packages/northgard.gameworld" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Packages/northgard.infrastructure" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Packages/northgard.interactor" vcs="Git" />
