@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.rsh.designpatterns": "https://github.com/RasoulSh/DesignPatterns.git",
     "com.rsh.mediator": "https://github.com/RasoulSh/Mediator.git",
     "com.rsh.tweenersystem": "https://github.com/RasoulSh/Tweener.git",
     "com.rsh.uitoolkit": "https://github.com/RasoulSh/UIToolkit.git",

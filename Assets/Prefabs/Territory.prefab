@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5816360300615185262}
   - component: {fileID: 5816360300615185257}
   - component: {fileID: 2088438961610474633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Territory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,17 +110,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    isInstance: 0
     id: 
+    isInstance: 0
     prefabId: 780a6a49-412e-4c4e-9e07-f8f57db8fa8f
-    title: Test Territory
     position: {x: 0, y: 0, z: 0}
     rotation: {x: -0, y: -0, z: -0, w: 1}
-    bounds:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+    boundsCenter: {x: 0, y: 0, z: 0}
+    boundsSize: {x: 10, y: 2.220446e-16, z: 10}
+    title: Test Territory
     isCoast: 0
     buildingCapacity: 2
     naturalDistricts: []
-    isDiscovered: 0
-  naturalDistricts: []
+    pointInWorld: {x: 0, y: 0}

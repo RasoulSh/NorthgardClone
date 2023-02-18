@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.northgard.buildings": {
+      "version": "file:northgard.buildings",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.northgard.core": {
       "version": "file:northgard.core",
       "depth": 0,
@@ -53,6 +59,13 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.rsh.designpatterns": {
+      "version": "https://github.com/RasoulSh/DesignPatterns.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "944be693465a25abb8f5cc67c5ff79102b06afd0"
     },
     "com.rsh.mediator": {
       "version": "https://github.com/RasoulSh/Mediator.git",

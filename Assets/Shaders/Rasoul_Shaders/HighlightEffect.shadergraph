@@ -1950,7 +1950,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "7f7eee25d45944d08366a879852292cf",
     "m_Id": 0,
-    "m_DisplayName": "Main Texture",
+    "m_DisplayName": "ColorMap",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2052,6 +2052,8 @@
         "m_GuidSerialized": "efaba2c8-dc56-4f94-b01b-264753bd12f1"
     },
     "m_Name": "Fresnel Power",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_38CFA3F1",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2059,7 +2061,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 2.0,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -2234,6 +2236,8 @@
         "m_GuidSerialized": "c8d3f9ba-acb4-436f-9778-d6fc784f1b66"
     },
     "m_Name": "Base Color",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_1EFA8F6B",
     "m_OverrideReferenceName": "_BaseColor",
     "m_GeneratePropertyBlock": true,
@@ -2444,6 +2448,8 @@
         "m_GuidSerialized": "40d51167-ea3a-4e51-8457-138a67c4fff5"
     },
     "m_Name": "ColorMap",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "",
     "m_OverrideReferenceName": "_MainTex",
     "m_GeneratePropertyBlock": true,
@@ -2975,6 +2981,8 @@
         "m_GuidSerialized": "8cedba4e-4d5b-46f3-b1e8-d67d1add84b3"
     },
     "m_Name": "Fade Speed",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_5A4FAEBE",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2982,7 +2990,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 3.2100000381469728,
+    "m_Value": 4.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -2998,6 +3006,8 @@
         "m_GuidSerialized": "7d42e51d-80cd-4bce-bbd4-151732e208ba"
     },
     "m_Name": "Base Map",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_d94a45d7e123439495efca61feeef638",
     "m_OverrideReferenceName": "_BaseMap",
     "m_GeneratePropertyBlock": true,
@@ -3139,18 +3149,20 @@
         "m_GuidSerialized": "9b03e919-f407-41fc-82aa-dbdb44be2ce2"
     },
     "m_Name": "Highlight Color",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_A99DC410",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_HighlightColor",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.8784313797950745,
-        "g": 0.03529411926865578,
-        "b": 0.0,
-        "a": 1.0
+        "r": 0.0,
+        "g": 0.13333334028720857,
+        "b": 0.0235294122248888,
+        "a": 0.572549045085907
     },
     "m_ColorMode": 1
 }
